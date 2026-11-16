@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anh Phú — Giới thiệu &amp; Sở thích đi bơi</title>
+  <meta name="description" content="Trang cá nhân của Anh Phú — Chia sẻ về bản thân và niềm đam mê với bộ môn bơi lội." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a href="#top" class="brand">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 20C6.5 20 7.5 18 10 18C12.5 18 13.5 20 16 20C18.5 20 19.5 18 22 18C24.5 18 25.5 20 28 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M4 25C6.5 25 7.5 23 10 23C12.5 23 13.5 25 16 25C18.5 25 19.5 23 22 23C24.5 23 25.5 25 28 25" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+            <circle cx="19" cy="10" r="3" fill="currentColor"/>
+            <path d="M9 14L14 11L18 14L23 11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">Anh Phú</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Mở menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#gioi-thieu">Về mình</a>
+        <a href="#so-thich">Sở thích bơi</a>
+        <a href="#do-nghe">Thói quen</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-bg-blobs" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="pill-badge">
+            <span class="pulse-dot"></span>
+            Trang cá nhân • Yêu thích bơi lội
+          </div>
+          <h1>Xin chào, mình là <span class="highlight">Anh Phú</span></h1>
+          <p class="hero-lead">
+            Một người yêu sự tự do dưới làn nước xanh mát. Với mình, mỗi buổi đi bơi không chỉ là rèn luyện sức khỏe mà còn là khoảng thời gian để lắng nghe bản thân và nạp lại năng lượng tích cực.
+          </p>
+          <div class="hero-actions">
+            <a href="#so-thich" class="btn btn-primary">Khám phá sở thích</a>
+            <a href="#gioi-thieu" class="btn btn-secondary">Tìm hiểu về mình</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value">Bơi sải &amp; ếch</span>
+              <span class="stat-label">Kiểu bơi sở trường</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-value">3–4 buổi/tuần</span>
+              <span class="stat-label">Thói quen duy trì</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-value">1.000m+</span>
+              <span class="stat-label">Mục tiêu mỗi buổi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="water-card">
+            <div class="water-card-top">
+              <span class="chip">Làn bơi yêu thích</span>
+              <span class="temp-badge">27°C • Nước mát</span>
+            </div>
+
+            <div class="swimmer-illustration" aria-hidden="true">
+              <svg viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="poolGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35"/>
+                    <stop offset="100%" stop-color="#0284C7" stop-opacity="0.75"/>
+                  </linearGradient>
+                </defs>
+                <!-- Sun / light -->
+                <circle cx="290" cy="48" r="24" fill="#BAE6FD" fill-opacity="0.5"/>
+                <circle cx="290" cy="48" r="14" fill="#E0F2FE" fill-opacity="0.85"/>
+                <!-- Water surface -->
+                <path d="M0 130 Q 45 116 90 130 T 180 130 T 270 130 T 360 130 L 360 220 L 0 220 Z" fill="url(#poolGrad)"/>
+                <path class="wave-line" d="M0 148 Q 45 136 90 148 T 180 148 T 270 148 T 360 148" stroke="#E0F2FE" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+                <path class="wave-line-slow" d="M0 174 Q 45 162 90 174 T 180 174 T 270 174 T 360 174" stroke="#BAE6FD" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+                <!-- Swimmer silhouette -->
+                <circle cx="222" cy="112" r="13" fill="#FFFFFF"/>
+                <path d="M126 126 C 154 114, 186 114, 208 124" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+                <path d="M188 120 L 236 96" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+                <path d="M110 128 L 80 118" stroke="#E0F2FE" stroke-width="8" stroke-linecap="round"/>
+                <!-- Splash droplets -->
+                <circle cx="246" cy="92" r="4" fill="#E0F2FE"/>
+                <circle cx="258" cy="102" r="3" fill="#BAE6FD"/>
+                <circle cx="72" cy="110" r="3.5" fill="#E0F2FE"/>
+              </svg>
+            </div>
+
+            <blockquote class="water-quote">
+              “Khi chạm nước, mọi ồn ào ngoài kia đều lùi lại phía sau — chỉ còn nhịp thở và từng sải tay đều đặn.”
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wave Divider -->
+      <div class="wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 90" preserveAspectRatio="none">
+          <path d="M0,40 C240,90 480,0 720,40 C960,80 1200,10 1440,45 L1440,90 L0,90 Z" fill="#ffffff"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="gioi-thieu">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Giới thiệu bản thân</span>
+          <h2>Đôi nét về Anh Phú</h2>
+          <p>
+            Mình là người thích lối sống năng động, đề cao sự cân bằng giữa công việc, học hỏi và rèn luyện thể chất.
+          </p>
+        </div>
+
+        <div class="cards-grid three-cols">
+          <article class="info-card">
+            <div class="card-icon">🌊</div>
+            <h3>Yêu thiên nhiên &amp; làn nước</h3>
+            <p>
+              Từ hồ bơi ngoài trời buổi sáng sớm đến những chuyến đi biển cuối tuần, cảm giác được hòa mình vào nước luôn mang lại cho mình sự thư thái đặc biệt.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">⚡</div>
+            <h3>Kỷ luật &amp; bền bỉ</h3>
+            <p>
+              Bơi lội dạy mình sự kiên nhẫn. Không cần quá vội vàng ở những mét đầu tiên, quan trọng là giữ nhịp thở ổn định để đi hết cả chặng đường.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">☀️</div>
+            <h3>Năng lượng tích cực</h3>
+            <p>
+              Sau mỗi buổi bơi, tinh thần luôn sảng khoái hơn hẳn. Đó là bí quyết giúp mình tập trung tốt hơn và giữ tâm trạng vui vẻ mỗi ngày.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swimming Hobby Section -->
+    <section class="section hobby-section" id="so-thich">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Sở thích số 1</span>
+          <h2>Tại sao Anh Phú thích đi bơi?</h2>
+          <p>
+            Với mình, bơi lội là sự kết hợp tuyệt vời giữa vận động toàn thân và thiền định chuyển động.
+          </p>
+        </div>
+
+        <div class="styles-tabs" role="tablist" aria-label="Các kiểu bơi yêu thích">
+          <button class="tab-btn active" role="tab" aria-selected="true" data-style="freestyle">Bơi sải (Freestyle)</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-style="breaststroke">Bơi ếch (Breaststroke)</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-style="backstroke">Bơi ngửa (Backstroke)</button>
+        </div>
+
+        <div class="style-detail-card" id="styleDetail">
+          <div class="style-detail-info">
+            <span class="style-badge" id="styleBadge">Tốc độ &amp; Thể lực</span>
+            <h3 id="styleTitle">Bơi sải — Nhịp nhàng và bứt phá</h3>
+            <p id="styleDesc">
+              Đây là kiểu bơi mình tập nhiều nhất để rèn sức bền tim mạch. Cảm giác rẽ nước tiến về phía trước với nhịp thở đều đặn 3 nhịp một lần thực sự rất cuốn hút.
+            </p>
+            <ul class="style-highlights" id="styleHighlights">
+              <li>Đốt cháy năng lượng hiệu quả, tăng dung tích phổi</li>
+              <li>Giữ thân người thẳng, lướt nước mượt mà</li>
+              <li>Phù hợp cho các bài tập cự ly 500m – 1.500m</li>
+            </ul>
+          </div>
+          <div class="style-metrics">
+            <div class="metric-box">
+              <span class="metric-label">Cường độ</span>
+              <span class="metric-value" id="styleIntensity">Cao</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-label">Cảm giác</span>
+              <span class="metric-value" id="styleFeeling">Mạnh mẽ, dứt khoát</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-label">Thời điểm ưa thích</span>
+              <span class="metric-value" id="styleTime">Khởi động &amp; tăng tốc</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Routine & Gear Section -->
+    <section class="section gear-section" id="do-nghe">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Thói quen nhỏ</span>
+          <h2>Chuẩn bị trước khi xuống nước</h2>
+        </div>
+
+        <div class="cards-grid four-cols">
+          <div class="gear-card">
+            <span class="gear-num">01</span>
+            <h4>Kính bơi chống mờ</h4>
+            <p>Giúp nhìn rõ làn bơi dưới nước và bảo vệ mắt khỏi clo.</p>
+          </div>
+          <div class="gear-card">
+            <span class="gear-num">02</span>
+            <h4>Khởi động 5–10 phút</h4>
+            <p>Xoay kỹ khớp vai, cổ tay và cổ chân để tránh chuột rút.</p>
+          </div>
+          <div class="gear-card">
+            <span class="gear-num">03</span>
+            <h4>Bổ sung nước</h4>
+            <p>Dù ở dưới nước nhưng cơ thể vẫn mất nước khi vận động.</p>
+          </div>
+          <div class="gear-card">
+            <span class="gear-num">04</span>
+            <h4>Thả lỏng cuối buổi</h4>
+            <p>Bơi 100m nhẹ nhàng để nhịp tim hạ xuống từ từ.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <strong>Anh Phú</strong>
+        <p>Trang cá nhân chia sẻ về bản thân &amp; niềm vui đi bơi.</p>
+      </div>
+      <a href="#top" class="back-to-top">Lên đầu trang ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
